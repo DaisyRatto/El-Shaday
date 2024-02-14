@@ -1,13 +1,54 @@
+:root {
+    --primary-color: #6C0202;
+    --second-color: #8C0303;
+    --third-color: #A70400;
+    --yellow-color: #F2B705;
+    --gap: 3rem;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1 a {
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
     text-decoration: none;
 }
 
-ul li a {
-    text-decoration: none;
+.menu {
+    background-color: var(--primary-color);
+    color: var(--yellow-color);
+    
+}
+
+.menu a {
+    color: var(--yellow-color);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
