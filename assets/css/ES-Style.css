@@ -45,6 +45,10 @@ a {
     display: flex;
 }
 
+.menu h1 {
+    margin: 10px;
+}
+
 .menu-content {
     display: flex;
     justify-content: space-between;
@@ -52,3 +56,13 @@ a {
     padding-top: 0;
     padding-bottom: 0;
 }
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 2rem; /* 2rem = 20px + ou - */
+    font-size: 17px;
+    position: relative;
+    margin-right: 100px;
+}
+
