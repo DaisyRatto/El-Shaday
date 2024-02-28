@@ -67,3 +67,38 @@ a {
     margin-right: 100px;
 }
 
+.base-section {
+    background-image: url("../img/espetinhosdiversos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0, 2);
+    height: 700px;
+    width: auto;
+}
+
+.intro-content {
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 700px;
+    width: auto;
+    text-align: center;
+}
+
+.intro-content h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 10%;
+    text-align: center;
+    z-index: 2;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    border: 1.5px solid white;
+    padding: 20px;
+    width: 80%;
+    position: absolute;
+}
+
+.second-page {
+    background-color: white;
+}
