@@ -33,8 +33,8 @@ a {
 .menu {
     background-image: linear-gradient(black, var(--primary-color));
     color: var(--yellow-color);
-    height: 70px;
-    box-shadow: 15px -15px 5px 20px rgba(0, 0, 0, 0.7);
+    box-shadow: 15px -15px 5px 20px rgba(0, 0, 0, 0.3);
+    height: 50px;
 }
 
 .menu a {
@@ -48,6 +48,7 @@ a {
 
 .menu h1 {
     margin: 10px;
+    font-size: 25px;
 }
 
 .menu-content {
@@ -56,6 +57,11 @@ a {
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.menu-content .logo {
+    padding-left: 108px;
+    margin: 10px;
 }
 
 .menu ul li a {
@@ -74,6 +80,7 @@ a {
     color: rgb(0, 0, 0, 2);
     height: 700px;
     width: auto;
+    margin: 0;
 }
 
 .intro-content {
@@ -101,4 +108,8 @@ a {
 
 .second-page {
     background-color: white;
+}
+
+.section-two {
+    height: 700px;
 }
